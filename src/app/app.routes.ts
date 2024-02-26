@@ -8,7 +8,7 @@ export const routes: Routes = [
 
     { path: '','title':'Home', component: HomeComponent },
     { path: 'about', 'title':'About',component: AboutComponent },
-    { path: 'contact','title':'Contact', component: ContactComponent },
+    { path: 'contact','title':'Contact', component: ContactComponent },   
     {path: '**', component: PageNotFoundComponent}
 
 ];
